@@ -1,0 +1,769 @@
+* {
+     box-sizing:border-box;}
+
+ html{
+     scroll-behavior: smooth;
+     background-image: linear-gradient(to left, #eec8dde0, #ebd2d2e0);
+     backface-visibility: hidden;
+ }
+ #hamburger{
+     display: none;
+ }
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+ .navbar {
+    width: 100%;
+    background-color: rgb(85, 30, 80);
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left:0;
+  }
+  
+  
+  .navbar a {
+    
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    height: auto;
+  } 
+  
+  
+  .navbar a:hover {
+    background-color: rgb(30, 216, 13);
+  } 
+  
+  .nav-colored { background-color: rgb(230, 50, 50);}
+.nav-transparent { background-color: rgb(85, 30, 80);}
+
+ .open_video{
+     align-content: center;
+     height: 500;
+ }
+  
+ .Open {
+            
+    background-image: url("Intro_img.svg");
+    background-color: rgb(243, 147, 243);
+     margin: 0 6rem;
+     box-sizing: content-box;
+    font-family: "Lato", sans-serif;
+    box-shadow: 0 0 4rem .5rem #fd4747b6;
+    color: rgba(109, 7, 7, 0.932);
+    
+}
+.intro button {
+    padding: 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline:rgba(0, 0, 0, 0.2);
+  background-color: #fcb83b;
+  border: solid 4px navy;
+  align-items: right;
+  box-shadow: 0 5px #999;
+  }
+ 
+
+
+     
+#Sec2 {
+    background-image: linear-gradient(to left, #eec8dde0, #ebd2d2e0);
+    backface-visibility: hidden;
+}
+h1.main {
+      
+       font-size: 50px;
+       letter-spacing: 0.5px;
+       color: rgba(231, 20, 20, 0.993);
+       font-style: italic;
+       
+       text-align: center;
+       text-decoration: underline;
+       font-family: Arial, Helvetica, sans-serif;
+       animation-name: FromTop;
+       animation-duration: 2s;
+       animation-timing-function: ease-out;
+       animation-iteration-count: inherit;
+       
+
+}    
+h3.sub {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: rgb(253, 11, 201);
+    background-color: burlywood;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: FromBottom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+h1.name {
+    background-color: yellow;
+    font-size: 25px;
+    font-style: bold;
+    
+    color: rgb(48, 37, 145);
+    text-align:center;
+
+}
+.column_sp {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    
+  }
+.row_sp {margin: 0 -5px; 
+    background-image: linear-gradient(to left, #eec8dde0, #ebd2d2e0);}
+
+    .card {
+      box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2); 
+        padding: 20px 10px;
+        text-align: center;
+        background-color: #f1f1f1;
+        border: green;
+    }
+p.desc {
+    border: 1.5px solid #1d0124;
+    color:rgb(245, 93, 6);
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(214, 213, 213);
+}
+p.discount {
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h3.price {
+    text-align:right;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+p.focus {
+  
+  
+   text-align: left;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+
+.food_card {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    background-color: #32f5aa;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .food_card button:hover {background-color: #3e8e41}
+  
+  
+@keyframes FromTop
+{
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+@keyframes FromBottom
+{
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+
+h1.Name {
+    font-size: 10rem;
+    
+    font-weight: 400;
+    padding-bottom: 10rem;
+
+}
+p.intro{
+    text-align: center;
+    text-decoration: solid;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+ 
+ .focus2 button {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #f71d0e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(222, 238, 78);
+  }
+  .focus2 button:hover {background-color: #e9fa03}
+
+  
+
+  h1.recom {
+      text-align: center;
+      text-decoration: wavy;
+      color: rgba(231, 20, 20, 0.993);
+      font-size: 50px;
+      font-style: italic;
+     
+  }
+  h2.recom {
+      text-align: center;
+      letter-spacing: 6px;
+     
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+  
+  
+  .row {margin: 0 -5px;}
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(75, 2, 2, 0.911); 
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(236, 155, 155);
+  
+  
+  
+  }
+  
+  
+   
+  
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-field {
+    width: 90%;
+    padding: 10px 35px 10px 15px;
+    border: rgb(54, 31, 31) solid 2px;
+    border-radius: 100px;
+    outline: none;
+    background-color: rgb(255, 248, 220);
+  }
+  
+  .search-button {
+    background:rgb(243, 235, 152);
+    border: solid 2px rgb(99, 1, 1);
+    outline: none;
+    margin-left: -33px;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  .search-button:hover {background-color: blue;}
+
+  #Sec3{} 
+  
+ 
+  h1.rev2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+    color: rgb(141, 152, 163);
+  }         
+  
+  .Reviews{
+    background-color: rgb(245, 233, 233);
+    margin: 0 5rem;
+    font-family: "Lato", sans-serif;
+     box-shadow: 0 0 4rem .5rem #ff8364b6;
+  }
+  .banner{
+  text-align: center ;
+  font-size: larger;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(228, 47, 47);
+  }
+
+  .thanks{
+      width: 100%;
+      height: auto;
+
+  }
+  
+  
+  
+
+  .footer{
+      background-color: rgb(236, 85, 85);
+      color: whitesmoke;
+      text-align: center;
+      font-size: medium;
+      
+  }
+  .smedia{
+    width: 60;
+    height: 60;
+}
+
+  #container2 {
+    display: flex;
+    height: 100%;
+   
+
+  }
+
+.left3 {
+      width: 50%;
+       
+      
+     }   
+.right3 {
+         width: 50%;
+         text-align: right;
+         
+}
+  .links {
+      text-align: left;
+      color: whitesmoke;
+      
+  }
+  .btn {
+    background-color: rgb(105, 171, 236); 
+    border: none; 
+    color: whitesmoke; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    box-shadow: cornsilk;}
+    
+  
+  
+  .btn:hover {
+    background-color: rgb(49, 62, 100);
+  }
+  
+
+  #popup {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.60);
+    z-index: 2;
+    display: none;
+  }
+  .popup-content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:767;
+    height: 496.5;
+    padding:1rem 2rem;
+    background:#ffefefdf;
+    color: black;
+    font-size: 12px;
+    
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    border: .4rem solid #ff4d4d;
+    
+  }
+
+  .popup-content h1 {
+      text-align: center;
+      padding: 2rem;
+  }
+
+  .popup-content p {
+      padding: 4rem;
+      line-height: 1rem;
+  }
+
+  #popup a.close-popup {
+    position: absolute;
+    margin-bottom: auto;
+    align-items: center;
+  }
+
+  .popup-exit {
+      height: 3rem;
+  }
+
+  #popup:target {
+    display:block;
+  }
+
+  
+  
+  @media only screen and (max-width: 600px) {
+    html, body {
+        font-size: 1.6vw;
+        overflow-x: hidden;
+        max-width: 100%;
+        
+    }
+   
+   
+
+    .navbar {
+        height: fit-content;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        
+    }
+   
+   
+   
+    .menu a {
+        font-size: 10px;
+        padding: 10px;
+        color:rgba(251, 255, 1, 0.986);
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: bold;
+
+    }
+
+   
+    .menu{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    #hamburger{
+        display: block;
+    }
+    .hamburger{
+        font-size: 20px;
+        color:rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        background-color: rgb(245, 177, 177);
+        align-items: right;
+        float: right;
+        
+
+    }
+    .menu.show{
+        display: flex;
+
+    }
+
+    .logo {
+        width: 10;
+        height: 10;
+        margin-top: 4;
+        float: left;
+        
+    }
+    
+     
+    
+        .Open {
+            width: 100%;
+            /*background-image: url("Intro_img.svg");*/
+            background-image: url("https://pyxis.nymag.com/v1/imgs/577/b3e/e5ec9596043e1603ff3447d1b3c83dc528-millennial-pink-25.h473.w710.jpg");
+            background-color: rgb(243, 147, 243);
+             margin: 0 0;
+            box-sizing: content-box;
+            font-family: "Lato", sans-serif;
+            /*box-shadow: 0 0 4rem .5rem #fd4747b6;*/
+            height: auto;
+            text-align: right;
+        }   
+
+        .intro button {
+            padding: 10px 10px;
+          font-size: 12px;
+          text-align: center;
+          cursor: pointer;
+          outline:rgba(0, 0, 0, 0.2);
+          background-color: #fcb83b;
+          border: solid 4px navy;
+          position: center;
+          box-shadow: 0 5px #999;
+          }
+        
+    .column_sp{
+        display: block;
+        width: 100%;
+
+    }
+    .row_sp{
+        margin: 0 0;
+    }
+
+    
+    .card {
+        width: 100%;
+        box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2); 
+        padding: 6rem 12rem;
+        text-align: center;
+        background-color: #f1f1f1;
+        height: fit-content;
+    
+    }
+    
+    .column {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .row {margin: 0 0;}
+
+        
+    .card2 {
+        box-shadow: 10px 0px 0px 0 rgba(0, 0, 0, 0.2); 
+        padding: 10rem 0rem 0rem;
+        text-align: center;
+        background-color: rgb(236, 155, 155);
+        width: 100%;
+        height: fit-content;
+      
+      
+      }
+    h1.name {
+        background-color: yellow;
+        font-size: 18px;
+        font-style: bold;
+       color: rgb(48, 37, 145);
+        text-align:center;
+    
+    }
+    h1.recom {
+        text-align: center;
+        text-decoration: wavy;
+        color: rgba(231, 20, 20, 0.993);
+        font-size: 40px;
+        font-style: italic;
+       
+    }
+    h2.recom {
+        text-align: center;
+        letter-spacing: 6px;
+        font-size: 20px;
+       
+    }
+    p.desc {
+        border: 1.5px solid #1d0124;
+        color:rgb(245, 93, 6);
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgb(214, 213, 213);
+        font-size: 12px; 
+    }
+    p.discount {
+        color: red;
+        font-size: 15px;
+        font-style: italic;
+    }
+    
+    h3.price {
+        text-align:right;
+        color: blueviolet;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        
+    }
+    
+    .item {
+         width:100%;
+
+     } 
+     .focus2 button {
+        padding: 10px 10px;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        background-color: #f71d0e;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 5px rgb(222, 238, 78);
+      }
+     .food_card button {
+        padding: 10px 10px;
+        font-size: 12px;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+        background-color: #32f5aa;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 5px #999;
+     } 
+    
+
+    .search-field {
+        width: 90%;
+        padding: 2rem 7rem 2rem 3rem;
+        border: rgb(54, 31, 31) solid 2px;
+        border-radius: 100px;
+        outline: none;
+        background-color: rgb(255, 248, 220);
+      }
+
+    
+     
+      
+    
+  
+ 
+  
+  p.intro{
+    text-align: justify;
+    font-size: 11px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+  .cover {
+      width: 100%;
+
+  }
+ 
+  .left {
+      
+      width: 100%;
+  }
+  .right {
+      width: 100%;
+      align-items: center;
+  }
+  #Sec3{} 
+  
+ 
+  h1.rev2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+    color: rgb(141, 152, 163);
+             
+
+  }    
+  .Reviews{
+    width: 100%;
+    background-color: rgb(245, 233, 233);
+    margin: 0 0;
+    font-family: "Lato", sans-serif;
+     box-shadow: 0 0 4rem .5rem #ff8364b6;
+  }
+  .banner{
+  text-align: center ;
+  font-size: 15px;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(228, 47, 47);
+  }
+
+  .rev_img{
+      width: 100%;
+      height: 250;
+  }
+  .thanks{
+      width: 100%;
+      height: auto;
+  }
+   
+
+  .footer {
+    margin: 0;
+    
+    background-color: rgb(236, 85, 85);
+    color: whitesmoke;
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+}
+
+h2.footer_head {
+    font-size: 16px;
+    padding: 0;
+    text-align: left;
+
+}
+h1.footer_head {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.footer_body {
+    font-size: 10px;
+    padding: 2rem;
+    height: 20%;
+    
+}
+.footer_pic {
+    width: 50%;
+    height: 70%;
+    align-items: center;
+    margin-top: auto;
+}
+.smedia{
+    width: 10;
+    height: 10;
+}
+.btn {
+     
+    padding: 8px 12px; 
+    font-size: 10px; 
+    cursor: pointer; 
+    box-shadow: cornsilk;}
+
+    .popup-content p {
+        padding: 5rem;
+        font-size: 10px;
+        line-height: 1.5rem;
+       
+    }
+
+  }
+
+
